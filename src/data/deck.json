@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Old man",
+    "ability": {
+      "description": "Scream at the clouds",
+      "type": "none"
+    },
+    "cost": 1,
+    "hp": 1,
+    "attack": 1,
+    "keywords": []
+  },
+  {
+    "name": "Leader",
+    "ability": {
+      "description": "Draw one card.",
+      "type": "drawCard",
+      "params": {
+        "amount": 1,
+        "target": "user"
+      }
+    },
+    "cost": 1,
+    "hp": 2,
+    "attack": 2,
+    "keywords": []
+  },
+  {
+    "name": "Pyromaniac",
+    "ability": {
+      "description": "Deal 2 damage to an enemy.",
+      "type": "changeHp",
+      "params": {
+        "possibleTarget": ["Nexus", "enemyUnit"],
+        "targetNumber": 1,
+        "amount": -2
+      }
+    },
+    "cost": 2,
+    "hp": 3,
+    "attack": 1,
+    "keywords": []
+  },
+  {
+    "name": "The silent one",
+    "ability": {
+      "description": "Heal the target by 2 HP.",
+      "type": "",
+      "params": {
+        "possibleTarget": [],
+        "targetNumber": 1,
+        "amount": 2
+      }
+    },
+    "cost": 2,
+    "hp": 1,
+    "attack": 2,
+    "keywords": []
+  }
+]
